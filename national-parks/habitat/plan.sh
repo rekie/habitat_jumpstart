@@ -9,6 +9,10 @@ pkg_svc_user="root"
 pkg_binds=(
 	[database]="port"
 )
+pkg_exports=(
+  [port]=server.port
+)
+pkg_exposes=(port)
 do_prepare(){ export JAVA_HOME=$(hab pkg path core/jdk8) ; }
 do_build()
 {
