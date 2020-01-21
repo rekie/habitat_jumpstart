@@ -3,6 +3,7 @@
 # You can safely delete this file if you don't need it.
 #
 #
+mongodb_database = "demo"
 [server]
 port = "8080"
 shutdown-port = "8005"
