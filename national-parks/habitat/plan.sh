@@ -1,6 +1,7 @@
 pkg_name=national-parks
+pkg_description="A Sample java app"
 pkg_origin=rekie
-pkg_version="6.3.0"
+pkg_version="6.5.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=("Apache-2.0")
 pkg_deps=(core/tomcat8 core/jre8 core/mongo-tools)
